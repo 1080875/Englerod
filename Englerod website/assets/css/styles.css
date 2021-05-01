@@ -190,3 +190,51 @@ margin-top: 2vh;
     margin-top: 5vh;
     text-decoration: none;
 }
+
+
+/* OPSKRIFTER - FORSIDE*/
+
+
+#forsideOpskriftCon {
+    background-image: url("../images/BG\ Gradient.png");
+    background-repeat: no-repeat;
+    padding: 15px;
+    display: grid;
+    grid-gap: 5vh;
+    grid-template-areas: 
+    "header"
+    "searchFilter";
+    display: none;
+}
+
+.searchFilter {
+    grid-area: searchFilter;
+}
+
+#måltypeKnap {
+    border: none;
+}
+
+.filterMåltyper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.Filter {
+    position: absolute;
+    right: 15px;
+    top: 107px;
+}
+
+.searchBar {
+    width: 307px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px #DEDEDF solid;
+}
+
+.SearchIkon {  
+    position: absolute;
+    right: 70px;
+}

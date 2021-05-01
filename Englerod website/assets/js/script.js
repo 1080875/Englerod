@@ -12,3 +12,27 @@ function openIcon(evt, iconName) {
     document.getElementById(iconName).style.display = 'grid';
     evt.currentTarget.className += "active";
 }
+
+
+
+const url = "http://moali.dk/wp-json/wp/v2/posts";
+
+
+
+fetch(url)
+
+.then(response => response.json())
+
+.then(data => console.log(data))
+
+
+const opskriftTitle = data.acf.title;
+
+
+let strOutPut = `
+  <div class="Container">
+  <h2>${opskriftTitle}</div>`
+
+;
+
+document.querySelector('#output').innerHTML = strOutPut;

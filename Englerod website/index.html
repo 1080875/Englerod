@@ -62,9 +62,32 @@
             </div>
     
             <div class="btnOpretWrap">
-                <button class="tabLinks" id="btnOpret" onclick="openIcon(event, '#')">Opret dig</button>
+                <button class="tabLinks" id="btnOpret" onclick="openIcon(event, 'forsideOpskriftCon')">Opret dig</button>
             </div>
         </section>
     </div>
+
+    <!-- Opskrift - FORSIDE -->
+    <div class="container" id="forsideOpskriftCon">
+        <header class="OpskrifterHeader">
+            <h2>Opskrifter</h2>
+            <h4>De skønneste veganske opskrifter</h4>
+        </header>
+        <section class="searchFilter">
+            <form action="/action_page.php" class="search center-flex">
+                <input id="searchInput" type="text" placeholder="Søg efter opskrift" class="shadow-neutral-lighterx">
+                <button name="search" value="Search" type="submit" class="shadow-neutral-lighterx" aria-label="Søg"><i class="fa fa-search"></i></button>
+              </form>
+        </section>
+        <div class="filterMåltyper">
+            <button class="Morgenmad" id="måltypeKnap">Morgenmad</button>
+            <button class="Frokost" id="måltypeKnap">Frokost</button>
+            <button class="Aftensmad" id="måltypeKnap">Aftensmad</button>
+            <button class="Dessert" id="måltypeKnap">Dessert</button>
+        </div>
+       
+    </div>
+
+    <div id="output"></div>
 </body>
 </html>
