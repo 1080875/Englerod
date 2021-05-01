@@ -1,0 +1,192 @@
+html {
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: Arial;
+    margin: 0;
+    padding: 0; 
+    background-color: whitesmoke;   
+}
+
+
+/*LANDING PAGE STARTER*/
+
+header {
+    grid-area: header; 
+}
+
+.Forsidesection {
+    grid-area: section-1
+}
+
+
+#ForsideContainer {
+    background-image: url("../images/grønkål\ 02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: grid;
+    height: 812px;
+    padding: 0; 
+    margin: 0; 
+    gap: 0; 
+    grid-template-areas: 
+    "section-1"
+}
+
+
+
+
+/* form.SearchBar {
+    margin: auto; 
+    max-width: 210px;    
+}
+
+form.SearchBar input[type=search]{
+    border: 1px solid #ccc; 
+    height: 25px ;
+}
+
+form.SearchBar button {
+    margin-left: -5px;
+    border: 1px solid #ccc; 
+    border-left: none; 
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;    
+} */
+
+
+#test12 {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    color: #FF8800;
+    opacity: 50%;
+    font-size: 36px;
+    border: none;
+}
+
+
+.tab {
+    display: flex;
+    justify-content: space-around;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+
+
+#opretContainer {
+    display: none;
+}
+
+.Forsidesection {
+    margin-top: 60vh;
+}
+
+
+.ForsideH2 {
+    font-size: 20px;
+    width: 85vw;
+}
+
+
+.ForsideTekstCon {
+    padding: 20px 0;
+    margin-left: 5vw;
+}
+
+.ForsideTekstCon {
+    color: white;
+}
+
+.ForsideP {
+    margin-top: 3vh;
+    width: 80vw;
+}
+
+#btnStart {
+    border-style: none;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto; 
+    display: block; 
+    background-color: #43885D;
+    border-radius: 4px;
+    height: 56px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+
+
+/** FORSIDE FÆRDIGT **/
+
+/* OPRET DIG START */
+
+input[type=password], input[type=email], .input[type=text] {
+    padding: 13px 0px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;  
+}
+
+.btnOpretWrap {
+    margin: 0 auto;    
+}
+
+.OpretSection {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 15vh;
+}
+
+.FormKodeord, .EmailForm, .Navn, .Adresse {
+margin-top: 2vh;
+}
+
+
+#Navn, #Adresse {
+    border-style: none;
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+    height: 42px; 
+}
+
+
+#opretContainer {
+    background-image: url("../images/Rectangle\ 532.png");
+    background-size: cover;
+    height: 812px;
+    width: 100%;
+}
+
+.Navn {
+    margin-top: 5vh;
+}
+
+#btnOpret {
+    background-color: #43885D;
+    border-style: none;
+    padding: 10px;
+    width: 100%;
+    height: 48px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 5vh;
+    text-decoration: none;
+}
